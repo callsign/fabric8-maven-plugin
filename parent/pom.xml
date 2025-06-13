@@ -68,7 +68,7 @@
     <version.maven>3.3.1</version.maven>
     <version.jacoco>0.7.8</version.jacoco>
     <version.fabric8>2.2.205</version.fabric8>
-    <version.docker-maven-plugin>0.20.0</version.docker-maven-plugin>
+    <version.docker-maven-plugin>0.43.1</version.docker-maven-plugin>
 
     <!-- =======================================================  -->
     <!-- === Java base image versions for docker, s2i (istag == s2i) -->
@@ -386,7 +386,7 @@
       <dependency>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctorj</artifactId>
-        <version>1.5.4</version>
+        <version>2.5.3</version>
       </dependency>
 
       <!-- == util ====================================== -->
@@ -488,7 +488,7 @@
             <dependency>
               <groupId>org.asciidoctor</groupId>
               <artifactId>asciidoctorj</artifactId>
-              <version>1.5.4</version>
+              <version>2.5.3</version>
             </dependency>
           </dependencies>
         </plugin>
